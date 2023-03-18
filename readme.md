@@ -1,8 +1,8 @@
 # About
 
-These are my notes for getting nim to statically link openssl for windows .exes and .dlls It's a real pain but I eventually got it working in both Windows and Linux per below.
+These are my notes for getting nim to statically link openssl for windows .exes and .dlls. It's a real pain but I eventually got it working in both Windows and Linux per below.
 
-**important**: make sure to test on a computer that doesn't have nim installed (re: dependencies being in PATH)
+**important**: make sure to test on a computer that doesn't have nim installed (re: dependencies being in PATH). Also, this PoC disables SSL cert verification so remove that compiler arg outside of PoC testing.
 
 will need to update commands/paths/etc. below to reflect openssl version being used + working directories
 
